@@ -132,3 +132,4 @@ if __name__ == "__main__":
     print count_unique_names("Michele", "Egli", "Deborah", "Egli", "Michele Egli")
     print count_unique_names("Aaron",  "shulman", "Erin", "Shulman", "Aaron Shulman")
     print count_unique_names("Abner B", "Yaffe", "Ab", "Yaffe", "Abner Yaffe")
+    print count_unique_names("Elliot", "Alderson", "Darlene", "Alderson", "Elliot Alderson")
