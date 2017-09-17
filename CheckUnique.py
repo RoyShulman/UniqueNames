@@ -123,5 +123,12 @@ def calculate_similarity(name1, name2):
     distance = matrix[length_name1 - 1][length_name2 - 1]
 
     return distance
+
 if __name__ == "__main__":
     print count_unique_names("aaron", "Egli", "erin", "Egli", "Michele Egli")
+    print count_unique_names("Deborah", "Egli", "Debbie", "Egli", "Debbie Egli")
+    print count_unique_names("Deborah", "Egni", "Deborah", "Egli", "Deborah Egli")
+    print count_unique_names("Deborah S", "Egli", "Deborah", "Egli", "Egli Deborah")
+    print count_unique_names("Michele", "Egli", "Deborah", "Egli", "Michele Egli")
+    print count_unique_names("Aaron",  "shulman", "Erin", "Shulman", "Aaron Shulman")
+    print count_unique_names("Abner B", "Yaffe", "Ab", "Yaffe", "Abner Yaffe")
